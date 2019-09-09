@@ -1,3 +1,3 @@
 # ITD_210_Fall_2019
-This data file contains; my individual page skeletons(inventory,home)html/css, site logo
-My name is Sergio P. Arambul
+Hello_World, my name is Sergio P. Arambul
+This data file contains; my individual page skeletons(inventory,home)html/css, site log.
