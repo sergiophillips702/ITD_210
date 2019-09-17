@@ -7,4 +7,20 @@ Date: September 9, 2019
    Filename: style.css
 */
 html {   background-color: #DCDCDC;
+background-image:url('images/metal.jpg');
 }
+
+
+table.inventory {
+  background: white;
+  border: 10px outset rgb(153, 5, 0);
+  font-size: 1.5em;
+  width: 100%;
+  padding: 50px;
+}
+table.inventory th, table.inventory td {
+  border: 1px solid grey;
+}
+
+table.inventory thead tr {height: 100px;}
+table.inventory tbody tr {height: 100px;}
