@@ -78,11 +78,11 @@ table.inventory tbody tr {
   height: 100px;
 }
 
-table.suv {
+<!-table.suv {
   table {
     background:gray
     width:400px;
-  }
+  }-->
   table,td{
     border: 1px solid#000;
     border-collapse:collapse;
