@@ -1,14 +1,61 @@
 @charset "utf-8";
+
 /*
 Valuable Cars
-Cascading Style Sheet
+Cascading Stlye Sheet
 Author: Sergio P. Arambul
 Date: September 9, 2019
    Filename: style.css
 */
+html {
+  background-color: #DCDCDC;
+/*background-image:url('images/metal.jpg');*/
+}
+h1,h2{
+  text-align: center;
+  color: black;
+}
+h3{
+background-color:#555;
+padding-top: 0px;
+padding-bottom: 5px;
+height:275px;
+margin-left:100px;
+margin-right:100px;
+border: 5px outset rgb(153, 5, 0);
+<!-background-image:url('');-->
+img:center;
+}
+h4{
+background-color:#555;
+padding-top: 0px;
+padding-bottom:50px;
+height:150px;
+margin-top:50px;
+margin-left:100px;
+margin-right:500px;
+border: 5px outset rgb(153, 5, 0);
+<!-background-image:url('');-->
+img:center;
+font-family:Helvetica, Geneva, Swiss, sans-serif;
+color: black;
+font-size: 1.0em;
 
-html {   background-color: #DCDCDC;
-background-image:url('images/metal.jpg');
+}
+p {
+   margin-top: 9px;
+   font-size: 1.0em;
+   margin-bottom: 9px;
+   font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+   color: white;
+   }
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height:150px;
 }
 /*Table Styles*/
 table.inventory {
@@ -24,9 +71,83 @@ table.inventory th, table.inventory td {
 }
 
 table.inventory thead tr {
-   height: 100px;
+  height: 100px;
 }
 
 table.inventory tbody tr {
-   height: 100px;
+  height: 100px;
 }
+
+table.suv {
+  table {
+    background:gray
+    width:400px;
+  }
+  table,td{
+    border: 1px solid#000;
+    border-collapse:collapse;
+  }
+}
+/* Style the navigation bar */
+.navbar {
+border: 5px outset rgb(153, 5, 0);
+background-color: #555;
+overflow: auto;
+
+}
+
+/* Navbar links */
+.navbar a {
+border: 5px outset rgb(211, 211, 255);
+ float: left;
+ text-align: center;
+ padding:15px;
+ color: white;
+ text-decoration: none;
+ font-size: 25px;
+ fontfamily:grunge, Helvetica, sans-serif;
+
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+ background-color: #B22222;
+}
+nav a {
+
+fontfamily:grunge, Helvetica, sans-serif;
+
+color:white;
+}
+
+nav a:link, nav:visited{
+color:white;
+text-decoration:none;
+background-color: #8B0000;
+
+}
+
+nav a:hover,nav a:active{
+color:  #555;
+backround-color:white;
+}
+
+/* Current/active navbar link */
+.active {
+ background-color: #8B0000;
+}
+footer {
+text-align: center;
+background-color: #555;
+border: 5px outset rgb(153, 5, 0);
+color: white;
+font-size: 1.5em;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
