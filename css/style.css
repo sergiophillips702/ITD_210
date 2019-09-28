@@ -26,13 +26,6 @@ h3{
   background-color:#555;
   border: 5px outset rgb(153, 5, 0);
 }
-p {
-   margin-top: 9px;
-   font-size: 1.0em;
-   margin-bottom: 9px;
-   font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
-   color: white;
-   }
 img{
   display: block;
   margin-left: auto;
